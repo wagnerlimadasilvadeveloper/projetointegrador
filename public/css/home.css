@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    background-color: cornflowerblue;
+    margin: 1%;
+    padding: 2%;
+
+}
+
+.banner-header{
+    text-align: center;
+    width: 100%;
+}
+
+.maisvendidos{
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    height: auto;
+    justify-content: space-between;
+    
+}
+
+.imperdiveis{
+
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    height: auto;
+    justify-content: space-between;
+}
+
+.menucategeoria{
+   margin-top: 30px;
+   
+}
+
+.artigos{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.experiencia{
+    display: flex;
+    padding: 2%;
+    margin: 2%;
+    padding-left: 2%;
+
+    
+
+}
+
+.clubedolivro{
+    width: 100%;
+    height: 200px;
+    background-color: crimson;
+    padding:2%,2%;
+    margin: 10px;
+    font-size: larger;
+   justify-content: space-around;
+}
+
+.depoimentos{
+display: flex;
+
+}
+
+.icones{
+    
+    width: 40px;
+    height:40px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 200px;
+    background-color: darkgray;
+}
