@@ -3,3 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+.nav{
+    display: flex;
+    background-color: cornflowerblue;
+    margin: 1%;
+    padding: 2%;
+
+}
+
+.banner-header{
+    text-align: center;
+    width: 100%;
+}
