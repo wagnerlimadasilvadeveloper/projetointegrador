@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 {
   "name": "projetointegrador",
   "version": "1.0.0",
@@ -24,13 +24,12 @@
   },
   "homepage": "https://github.com/wagnerlimadasilvadeveloper/projetointegrador#readme"
 }
-=======
->>>>>>> 81b3b23a794fcbe33dab8314c470fe2bb7eadb7c{
+
   "name": "projetointegrador",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "test": "echo \"Error: no test specified\" && exit 1"
   }
 
