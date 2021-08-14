@@ -12,5 +12,14 @@
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.12"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wagnerlimadasilvadeveloper/projetointegrador.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wagnerlimadasilvadeveloper/projetointegrador/issues"
+  },
+  "homepage": "https://github.com/wagnerlimadasilvadeveloper/projetointegrador#readme"
 }
