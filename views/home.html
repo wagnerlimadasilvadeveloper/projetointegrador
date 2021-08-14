@@ -16,13 +16,16 @@
          </nav>
          
          <img id="carrinho" src="img/cart.png" alt="carrinho" title="carrinho" />
-         <h2>Compre aqui livros novos, usados e seminovos de milhares de sebos e livrarias.</h2>          
-         <select name="menuheader" id="pesquisa">
-             <option value="autor">Autor</option>
-             <option value="titulo">Titulo</option>
-             <option value="editora">Editora</option>
-         </select>
-         <input type="search" name="search" id="search">
+         <h2>Compre aqui livros novos, usados e seminovos de milhares de sebos e livrarias.</h2>
+          <br>         
+        <div class = "search">
+          <form action="search" method="POST">
+            <input type="text" name = "search" id = "search" placeholder="Faça sua busca" required>
+            <button type = "submit">Buscar</button>
+          </form>
+        </div>
+      
+
          <br>
          </header>
 
