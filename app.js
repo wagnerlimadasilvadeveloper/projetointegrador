@@ -1,7 +1,11 @@
 const express = require("express");
 const app = express();
+
 // configurando o template engine
 app.set("view engine", "ejs");
+
+
+
 
 app.listen(8000,()=> {
 
