@@ -1,5 +1,7 @@
 const express = require("express");
 const app = express();
+const rotasDeProdutos = require("./routes/produtos");
+const rotas = require("./routes");
 app.listen(8000,()=> {
 
     app.use(express.static('public'));
