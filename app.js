@@ -4,7 +4,7 @@ const app = express();
 // configurando o template engine
 app.set("view engine", "ejs");
 
-
+//app.set("views", path.resolve("views"));
 
 
 app.listen(8000,()=> {
