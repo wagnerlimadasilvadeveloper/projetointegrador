@@ -1,7 +1,13 @@
 const express = require("express");
 const app = express();
+<<<<<<< HEAD
 const rotasDeProdutos = require("./routes/produtos");
 const rotas = require("./routes");
+=======
+// configurando o template engine
+app.set("view engine", "ejs");
+
+>>>>>>> 76f13dcc46adc09eb2d957538f43cbbd0b65eb50
 app.listen(8000,()=> {
 
     app.use(express.static('public'));

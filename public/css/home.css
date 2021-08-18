@@ -1,5 +1,5 @@
 *{
-    padding: 0;
+    padding: inherit;
     margin: 0;
     box-sizing: border-box;
 }
@@ -116,6 +116,7 @@ h3{
     text-align: center;
     width: 100%;
     margin-bottom: 30px;
+    
 }
 
 
@@ -167,18 +168,25 @@ h3{
 
 .clubedolivro{
     width: 100%;
-    height: 200px;
+    height: 100px;
     background-color: crimson;
     padding:2%,2%;
     margin: 10px;
-    font-size: larger;
+    font-size: 20px;
    justify-content: space-around;
+   padding: 10px;
+   text-align:center ;
+  }
+.clubedolivro button{
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
 }
-
 .depoimentos{
 display: flex;
-
 }
+
+
 
 .icones{
     
